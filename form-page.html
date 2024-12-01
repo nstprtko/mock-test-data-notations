@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form PAge</title>
+    <link rel="stylesheet" href="swiftie.css">
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="http://127.0.0.1:5501/home-page.html">Home Page</a></li>
+        <li><a href="http://127.0.0.1:5501/data-page.html">Data Page</a></li>
+        <li><a href="http://127.0.0.1:5501/image-page.html">Image Page</a></li>
+        <li><a href='http://127.0.0.1:5501/form-page.html'>Form Page</a></li>
+        <li><a href="http://127.0.0.1:5501/author-page.html">Author Page</a></li>
+
+    </ul><br>
+
+    <h1> Subscribe to our Newsletter </h1>
+    <form action="#">
+        <div class="form-group">
+            <label for="edit-field-1">First Name :</label>
+            <input type="text" id="edit-field-1" name="first-name">
+        </div>
+
+        <div class="form-group">
+            <label for="edit-field-2">Last Name : </label>
+            <input type="text" id="edit-field-2" name="last-name">
+        </div>
+
+        <div class="form-group">
+            <label for="dropdown">Select how to reach you:</label>
+            <select id="dropdown" name="reach">
+                <option value="phone">Phone</option>
+                <option value="email">Email</option>
+                <option value="media">Social Media</option>
+            </select>
+        </div>
+
+        <div class="form-action">
+            <button type="submit" class="save">Save</button>
+            <button type="cancel" class="cancel">Cancel</button>
+        </div>
+    </form>
+</body>
+</html>
