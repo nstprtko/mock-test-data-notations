@@ -1,0 +1,22 @@
+[
+    {
+    "name":"Taylor",
+    "surname":"Swift",
+    "age":33
+},
+{
+    "album": "1989",
+    "release_year": 2014,
+    "genre": "Pop"
+},
+{
+    "album": "Reputation",
+    "release_year": 2017,
+    "genre": "Pop, Electro-pop"
+},
+{
+    "album": "Midnights",
+    "release_year": 2022,
+    "genre": "Pop, Synth-pop"
+}
+]
